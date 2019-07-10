@@ -27,7 +27,7 @@ str(df_wti)
 summary(df_wti)
 
 options(repr.plot.width=10, repr.plot.height=6)
-with(df_brent,plot(x = Date,y = Price,type = 'l'))
+with(df_wti,plot(x = Date,y = Price,type = 'l'))
 grid()
 
 #Dado que las series tienen diferentes fechas se debe homologar los datos con una funcion
